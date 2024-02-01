@@ -1,0 +1,14 @@
+/*--- RESETEO ---*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--- BODY ---*/
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}

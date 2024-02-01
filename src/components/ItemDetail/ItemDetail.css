@@ -1,0 +1,30 @@
+.card-pokemon {
+  display: flex;
+  justify-content: center;
+}
+
+.card-poke {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-body-pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body-pokemon p {
+  font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  .card-poke {
+    flex-direction: column;
+  }
+
+  .img-pokemons {
+    width: 10rem;
+  }
+}

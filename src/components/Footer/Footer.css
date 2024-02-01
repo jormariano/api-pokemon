@@ -1,0 +1,43 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-socialnetworks {
+  margin-top: 15px;
+}
+
+.footer-socialnetworks a img {
+  padding: 0px;
+  margin: 0px 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-copy-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright {
+  color: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin: 10px 0px;
+}
+
+.footer-copyright a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-copyright a:hover {
+  color: blue;
+}
+
+button.scroll-to-top {
+  background-color: black;
+}
